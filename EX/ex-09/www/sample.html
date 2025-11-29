@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>Sample Page for Crawling & Scraping</title>
+    <script src="js/sample.js"></script>
+  </head>
+  <body>
+    <p>Rooms for conference in <a href="https://www.iniad.org/">INIAD</a></p>
+
+    <h3>Hall</h3>
+    <ul id="hall">
+      <li class="capacity">Capacity: 400</li>
+      <li class="floor">1F</li>
+    </ul>
+
+    <h3>Lecture room</h3>
+    <ul id="lecture_room">
+      <li class="capacity">Capacity: 200</li>
+      <li class="floor">2F</li>
+    </ul>
+
+    <h3>Large rooms</h3>
+    <ul id="large_rooms">
+      <li class="capacity">Capacity: 80</li>
+      <li class="floor">3,4F</li>
+    </ul>
+
+    <label for="num">Num:</label>
+    <input id="num" type="text">
+    <button onclick="calc()">Select</button><br>
+    Please use <span id="result">???</span>
+  </body>
+</html>
