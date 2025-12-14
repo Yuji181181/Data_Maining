@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from IPython.display import display
 
-csv_in = "sushi_corr-min4.csv"
+csv_in = "sushi3b.5000.10.score.csv"
 min_common_items = 4
 
 pd.options.display.max_rows = 999
